@@ -1,0 +1,87 @@
+{% extends 'cars/base.html' %}
+{% load static %}
+
+{%block content%}
+    <!--== Page Title Area Start ==-->
+    <section id="page-title-area" class="section-padding overlay">
+        <div class="container">
+            <div class="row">
+                <!-- Page Title Start -->
+                <div class="col-lg-12">
+                    <div class="section-title  text-center">
+                        <h2>About US</h2>
+                        <span class="title-line"><i class="fa fa-car"></i></span>
+                        <p>Book, Drive, Return</p>
+                    </div>
+                </div>
+                <!-- Page Title End -->
+            </div>
+        </div>
+    </section>
+    <!--== Page Title Area End ==-->
+
+    <!--== About Page Content Start ==-->
+    <section id="about-area" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Section Title Start -->
+                <div class="col-lg-12">
+                    <div class="section-title  text-center">
+                        <h2>About us</h2>
+                        <span class="title-line"><i class="fa fa-car"></i></span>
+                    </div>
+                </div>
+                <!-- Section Title End -->
+            </div>
+
+            <div class="row">
+                <!-- About Content Start -->
+                <div class="col-lg-6">
+                    <div class="display-table">
+                        <div class="display-table-cell">
+                            <div class="about-content">
+                                <p>A car sharing platform which enables users to rent a car for their personal need from a car owner at a agreed upon fare by hour.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- About Content End -->
+
+                <!-- About Video Start -->
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="{% static 'img/home-2-about.png' %}" alt="JSOFT">
+                    </div>
+                </div>
+                <!-- About Video End -->
+            </div>
+
+            <!-- About Fretutes Start -->
+            <div class="about-feature-area">
+                <div class="row">
+                    <!-- Single Fretutes Start -->
+                    <div class="col-lg-4">
+                        <div class="about-feature-item">
+                            <i class="fa fa-car"></i>
+                            <p>Have a car sitting idle in your garage? Contact us to use the platform and earn money by the hour.</p>
+                        </div>
+                    </div>
+                    <!-- Single Fretutes End -->
+                    
+                    <!-- Single Fretutes Start -->
+                    <div class="col-lg-4">
+                            <div class="about-feature-item">
+                                <i class="fa fa-car"></i>
+                                <p>In need a car to get around the city? Use the platform, connect to car owners and hire a car</p>
+                            </div>
+                        </div>
+                        <!-- Single Fretutes End -->
+    
+                </div>
+            </div>
+            <!-- About Fretutes End -->
+        </div>
+    </section>
+    <!--== About Page Content End ==-->
+    
+{% endblock %}

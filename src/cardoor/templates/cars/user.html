@@ -1,0 +1,36 @@
+{% extends 'cars/base.html' %}
+{% load static %}
+
+{%block content%}
+<body>
+    <div class='container' style="margin-top: 150px; margin-bottom: 150px">
+        <table class="table">
+            <thead>
+                <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Username</th>
+                <th scope="col">Email</th>
+                <th scope="col">Add car</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <% data.forEach(function(i) { %>
+                    <tr>
+                        <th scope="row"><%=i._id%></th>
+                        <td><%=i.username%></td>
+                        <td><%=i.email%></td>
+                        <% if (i.type === 1) { %>
+                            <td>owner</td>
+                            <td><a href='/user/<%=i._id%>/addcar'>add car</a></td>
+                        <% } else { %>
+                            <td>renter</td>
+                            <td>not applicable</td>
+                        <% } %>
+                    </tr>
+                <% }) %> -->
+            </tbody>
+        </table>
+    </div>
+</body>
+
+{% endblock %}
