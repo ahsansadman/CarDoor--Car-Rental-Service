@@ -17,4 +17,4 @@ pip3 install -r requirements.txt<br>
 4.Create a few test objects of each type.<br>
 5.Open tab to http://127.0.0.1:8000 to see the main site, with your new objects.<br>
 <h1>Note-</h1>
-The project is still under development. Only admin can add cars to database for now. User adding their cars into the database is still underway.
+The project is still under development. Only admin can add cars into database for now. User adding their cars into the database is still underway.
